@@ -3,7 +3,7 @@ name: CI
   on:
     pull-request:
       branches: develop
-  job:
+  jobs:
     build:
       runs-on: ubuntu-18.04
       steps:
